@@ -1,4 +1,6 @@
-console.log('hello');
+console.log('hello world');
+
+// import { isPrime } from './HelperMethods.js';
 
 const isPrime = function checkToSeeIfNumberIsAPrimeNumber(number) {
     if (number <= 1) {
@@ -24,7 +26,7 @@ const isPrime = function checkToSeeIfNumberIsAPrimeNumber(number) {
     return false;   
 };
 
-console.log(isPrime());
+console.log(isPrime(2));
 
 const number = 600851475143;
 let primeFactors = [];

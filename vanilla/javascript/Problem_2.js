@@ -13,7 +13,7 @@ do{
 
     if (thirdValue < maxValue)
     {
-        fibonnacciValues.push(thirdValue);
+        fibonnacciValues.push(thirdValue)
     }    
 
     firstValue = secondValue;
